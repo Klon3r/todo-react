@@ -1,5 +1,12 @@
 function Home() {
-  return <h1>HOME</h1>;
+  return (
+    <>
+      <ul className="homepage-list">
+        <li>React</li>
+        <li>Hash Routing</li>
+      </ul>
+    </>
+  );
 }
 
 export default Home;

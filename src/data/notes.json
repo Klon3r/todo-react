@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Go to the shops",
+    "isChecked": false
+  },
+  {
+    "id": 2,
+    "title": "Book a doctor",
+    "isChecked": true
+  }
+]

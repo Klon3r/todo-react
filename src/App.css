@@ -18,3 +18,29 @@
   gap: 1em;
   border-bottom: 1px solid white;
 }
+
+.homepage-list {
+  justify-content: center;
+  text-align: left;
+}
+
+.note-card {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  opacity: 50%;
+}
+
+.note-card:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+/* Note: isChecked */
+#checked-true {
+  text-decoration-line: line-through;
+}
+
+#checked-false {
+  text-decoration-line: none;
+}
