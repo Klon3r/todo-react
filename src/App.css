@@ -37,10 +37,10 @@
 }
 
 /* Note: isChecked */
-#checked-true {
+.checked-true {
   text-decoration-line: line-through;
 }
 
-#checked-false {
+.checked-false {
   text-decoration-line: none;
 }

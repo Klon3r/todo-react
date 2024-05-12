@@ -33,8 +33,8 @@ const router = createHashRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <>
     <Nav />
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </>
 );
