@@ -3,6 +3,7 @@ function Home() {
     <>
       <ul className="homepage-list">
         <li>React</li>
+        <li>React States</li>
         <li>Hash Routing</li>
         <li>JSDoc Tags</li>
         <li>Local Storage for Notes</li>

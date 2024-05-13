@@ -24,16 +24,24 @@
   text-align: left;
 }
 
+/* Notes */
 .note-card {
+  display: flex;
+  justify-content: space-between;
   border: 1px solid white;
   border-radius: 10px;
   margin: 10px;
   opacity: 50%;
 }
 
-.note-card:hover {
+.title-div {
+  margin-left: 10px;
+}
+
+.title-div:hover {
   cursor: pointer;
   opacity: 100%;
+  transform: scale(1.05);
 }
 
 /* Note: isChecked */
@@ -43,4 +51,26 @@
 
 .checked-false {
   text-decoration-line: none;
+}
+
+/* Icons */
+.img-icons {
+  width: 30%;
+}
+
+.img-icons:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Error messages */
+.error-message {
+  color: red;
 }
