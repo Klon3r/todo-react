@@ -1,12 +1,13 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
 import Notes from "./pages/Notes.jsx";
 import Home from "./pages/Home.jsx";
 import Nav from "./Nav.jsx";
+import Create from "./pages/Create.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import "./index.css";
+import "./App.css";
 
 // HashRouter
 const router = createHashRouter([
@@ -24,6 +25,11 @@ const router = createHashRouter([
     // Notes
     path: "/notes",
     element: <Notes />,
+  },
+  {
+    //Create notes
+    path: "/create",
+    element: <Create />,
   },
   {
     // Catch routing errors

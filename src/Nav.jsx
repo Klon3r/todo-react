@@ -12,6 +12,9 @@ function Nav() {
           <div>
             <button onClick={() => changeHashAddress("home")}>Home</button>
             <button onClick={() => changeHashAddress("notes")}>Notes</button>
+            <button onClick={() => changeHashAddress("create")}>
+              Create Note
+            </button>
           </div>
         </div>
       </nav>
