@@ -11,7 +11,7 @@ function Create() {
   };
 
   const createNote = () => {
-    if (noteTitle > 0) {
+    if (noteTitle.length > 0) {
       const id = localStorage.length + 1;
       localStorage.setItem(
         id,
