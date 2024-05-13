@@ -1,12 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Go to the shops",
-    "isChecked": false
+    "title": "Book a doctor",
+    "isChecked": true
   },
   {
     "id": 2,
-    "title": "Book a doctor",
+    "title": "Cook dinner",
     "isChecked": true
+  },
+  {
+    "id": 3,
+    "title": "Go to the shops",
+    "isChecked": false
   }
 ]
